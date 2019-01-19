@@ -7,8 +7,13 @@ var request = require("request");
 // var axios = require("axios");
 // Kat change to Axios, ditch Request
 
+// Connect to the Mongo DB and create a nature db
 var PORT = process.env.PORT || 3000;
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoscraper";
+   
+mongoose.connect(
+  process.env.MONGODB_URI || "mongodb://localhost:27017/nature",
+  { useNewUrlParser: true }
+);
 
 // Require all models
 var db = require("./models");
@@ -23,13 +28,6 @@ app.use(express.static("public"));
 
 // Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
-
-// Set mongoose to leverage built in JavaScript ES6 Promises
-// Connect to the Mongo DB and create a nature db
-mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost:27017/nature",
-  { useNewUrlParser: true }
-);
 
 // Routes
 // Kat change to Axios, ditch Request
