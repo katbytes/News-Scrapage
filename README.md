@@ -1,4 +1,4 @@
-# Mongo-Scraper
+# &#35; Mongo-Scraper&nbsp;&nbsp;<img src="https://img.icons8.com/color/48/000000/uk-news.png">
 
 Mongo Scraper is a Node.js App using MongoDB. The App uses Cheerio to scrape articles from xyz.com it then allows users to save articles and add comments on individual articles. The app is deployed to Heroku and MongoDB.
 
@@ -19,3 +19,49 @@ Try the app Here [https://xyz.herokuapp.com](https://xyz.herokuapp.com)
 09. [materialize](http://materializecss.com)
 10. [heroku](https://www.heroku.com)
 11. [mLab](https://mlab.com)
+### Basic Architecture:
+```
+.
+├── models
+│   ├── article.js
+│   └── comment.js
+|   └── index.js
+│ 
+├── node_modules
+│    └── ...
+│
+├── public
+│    └── css
+|       └── materialize.css
+|       └── materialize.min.css
+|       └── styles.css
+│ 
+├── fonts
+|    └── roboto
+│ 
+├── images
+|    └── screenshots
+|        └── demo.png
+│ 
+├── js
+|    └── masonry.pkgd.min.js
+|    └── materialize.js
+|    └── materialize.js
+|
+├── homepage.html
+│
+├── views
+|    ├── index.handlebars
+|    ├── saved.handlebars
+|    └── layouts
+|        └── main.handlebars
+│ 
+├── .gitignore
+│ 
+├── package-lock.json
+│
+├── README.md
+│   
+├── server.js
+│
+```
