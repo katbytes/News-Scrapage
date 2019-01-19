@@ -66,3 +66,5 @@ Try the app Here [https://xyz.herokuapp.com](https://xyz.herokuapp.com)
 ├── server.js
 
 ```
+## About the Author:
+[Katherine J. Bell](https://github.com/katbytes)
