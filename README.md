@@ -19,7 +19,7 @@ Try the app Here [https://xyz.herokuapp.com](https://xyz.herokuapp.com)
 09. [materialize](http://materializecss.com)
 10. [heroku](https://www.heroku.com)
 11. [mLab](https://mlab.com)
-<hr>
+
 ### Basic Architecture:
 ```
 .
