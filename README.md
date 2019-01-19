@@ -10,7 +10,7 @@ Try the app Here [https://katbytes-news-scraper.herokuapp.com/](https://katbytes
 `Scrape for articles`&#8673;
 
 ![Screenshot 2](/public/images/screenshots/demo-2.png)
-`Save your favortie articles`&#8673;
+`Save your favourite articles`&#8673;
 
 ![Screenshot 3](/public/images/screenshots/demo-3.png)
 `Leave notes/comment specific articles`&#8673;
