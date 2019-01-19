@@ -2,9 +2,18 @@
 
 Mongo Scraper is a Node.js App using MongoDB. The App uses Cheerio to scrape articles from https://www.nature.com/ it then allows users to save articles and add comments on individual articles. The app is deployed to Heroku and MongoDB.
 
-Try the app Here [https://katbytes-news-scraper.herokuapp.com/](https://katbytes-news-scraper.herokuapp.com/)
+## Getting Started:
+Try the app Here [https://katbytes-news-scraper.herokuapp.com/](https://katbytes-news-scraper.herokuapp.com/) (`Heroku`)
 
-![Mongo News Scraper Screenshot](/public/images/screenshots/demo.png)
+## Screenshots:
+![Screenshot 1](/public/images/screenshots/demo-1.png)
+`Scrape for articles!`&#8673;
+
+![Screenshot 2](/public/images/screenshots/demo-2.png)
+`Save your favortie articles!`&#8673;
+
+![Screenshot 3](/public/images/screenshots/demo-3.png)
+`Leave notes/comment specific articles`&#8673;
 
 ## Technologies Utilized
 
