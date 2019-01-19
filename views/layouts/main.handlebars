@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nature Scraper</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link href="/css/materialize.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+  <link href="/css/styles.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="/js/materialize.min.js"></script>
+  <script src="/js/masonry.pkgd.min.js"></script>
+  <script src="/js/scripts.js"></script>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="site-navbar" style="background-color: #920B24">
+      <div class="nav-wrapper">
+        <a href="/" style="text-transform: lowercase; font-size: 28px"><i class="material-icons left" style="padding-left: 20px">library_books</i>&nbsp;Nature
+          | Article Scraper</a>
+        <ul class="right">
+          <li style="background-color: #5a5a62; border-left: solid .5px #ccc"><a href="/"><i class="material-icons left tiny">home</i>
+              Home</a></li>
+          <li style="background-color: #5a5a62; border-left: solid .5px #ccc; border-right: solid .5px #ccc"><a href="/saved"><i
+                class="material-icons left tiny">save</i> Saved Articles</a></li>
+          <li><a href="/scrape" id="btn-scrape" class="btn waves-effect waves-light" style="background-color:#069;"><i
+                class="material-icons left tiny">clear_all</i> Scrape Articles</a></li>
+        </ul>
+      </div>
+      <!--/.nav-wrapper -->
+    </nav>
+    <!--/.site-navbar -->
+  </div><!-- /.navbar-fixed -->
+  <div class="jumbotron jumbotron-fluid" style="background-image: url(/images/telomeres.png); background-size: cover; width: 100%; height: 100%; border-bottom: solid 10px #fff;">
+    <div class="container" style="padding-top: 5px;">
+      <h5 class="display-4">International Journal of Science</h5>
+      <p class="lead" style="font-size: 14px">Nature is a British multidisciplinary scientific journal, first published
+        on 4 November 1869.<br><br>It is one of the most recognizable scientific journals in the world, and was ranked
+        the world's most cited scientific journal by the Science Edition of the 2010 Journal Citation Reports and is
+        ascribed an impact factor of 40.137, making it one of the world's top academic journals.<br><br>It is one of
+        the few remaining academic journals that publishes original research across a wide range of scientific fields.</p>
+    </div>
+  </div><!-- /.fluid-jumbotron -->
+
+  {{{ body }}}
+  <footer class="footer" style="background-color: #920B24; height: 75px;">
+    <div class="container">
+      <a href="https://github.com/katbytes/" target="_blank" type="button" class="btn waves-effect waves" style="background-color:#069;text-transform: lowercase; font-size: 12px; margin: 0 auto; width:125px; display: flex;"><i
+          class="fab fa-github" style="color: ##000;"></i>&nbsp;&nbsp;GitHub</a>
+      </button>
+  </footer><!-- /.footer -->
+</body>
+
+</html>
