@@ -15,10 +15,9 @@ Try the app Here [https://katbytes-news-scraper.herokuapp.com/](https://katbytes
 05. [express-handlebars](https://www.npmjs.com/package/express-handlebars)
 06. [axios](https://www.npmjs.com/package/axios)
 07. [jQuery](https://jquery.com)
-08. [dotenv](https://www.npmjs.com/package/dotenv)
-09. [materialize](http://materializecss.com)
-10. [heroku](https://www.heroku.com)
-11. [mLab](https://mlab.com)
+08. [materialize](http://materializecss.com)
+09. [heroku](https://www.heroku.com)
+10. [mLab](https://mlab.com)
 
 ### Basic Architecture:
 ```
