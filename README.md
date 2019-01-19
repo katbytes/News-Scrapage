@@ -4,7 +4,7 @@ Mongo Scraper is a Node.js App using MongoDB. The App uses Cheerio to scrape art
 
 Try the app Here [https://xyz.herokuapp.com](https://xyz.herokuapp.com)
 
-![Mongo News Scraper Screenshot](/public/images/screenshots/demo.jpg)
+![Mongo News Scraper Screenshot](/public/images/screenshots/demo.png)
 
 ## Technologies Utilized
 
