@@ -58,11 +58,11 @@ Try the app Here [https://katbytes-news-scraper.herokuapp.com/](https://katbytes
 |   |             ├── demo-3.png
 |   |             └── demo-3.png
 │   └── js
-|       ├── masonry.pkgd.min.js
-|       ├── materialize.js
-|       └── materialize.js
-|
-├── homepage.html
+|   |   ├── masonry.pkgd.min.js
+|   |   ├── materialize.js
+|   |   └── materialize.js
+|   |
+|   └── homepage.html
 │
 ├── views
 |   | └── layouts
