@@ -20,13 +20,14 @@ Try the app Here [https://katbytes-news-scraper.herokuapp.com/](https://katbytes
 01. [mongoDB](https://www.mongodb.com)
 02. [mongoose](https://www.npmjs.com/package/mongoose)
 03. [cheerio](https://www.npmjs.com/package/cheerio)
-04. [express](https://www.npmjs.com/package/express)
-05. [express-handlebars](https://www.npmjs.com/package/express-handlebars)
-06. [axios](https://www.npmjs.com/package/axios)
-07. [jQuery](https://jquery.com)
-08. [materialize](http://materializecss.com)
-09. [heroku](https://www.heroku.com)
-10. [mLab](https://mlab.com)
+04. [robo 3T](https://robomongo.org/)
+05. [express](https://www.npmjs.com/package/express)
+06. [express-handlebars](https://www.npmjs.com/package/express-handlebars)
+07. [axios](https://www.npmjs.com/package/axios)
+08. [jQuery](https://jquery.com)
+09. [materialize](http://materializecss.com)
+10. [heroku](https://www.heroku.com)
+11. [mLab](https://mlab.com)
 
 ### Basic Architecture:
 ```
@@ -60,7 +61,8 @@ Try the app Here [https://katbytes-news-scraper.herokuapp.com/](https://katbytes
 │   └── js
 |   |   ├── masonry.pkgd.min.js
 |   |   ├── materialize.js
-|   |   └── materialize.js
+|   |   ├── materialize.min
+|   |   └── scripts.js
 |   |
 |   └── homepage.html
 │
