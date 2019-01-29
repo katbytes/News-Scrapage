@@ -9,7 +9,7 @@ var request = require("request");
 
 // Connect to the Mongo DB and create a nature db
 var PORT = process.env.PORT || 3000;
-   
+
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost:27017/nature",
   { useNewUrlParser: true }
@@ -57,6 +57,9 @@ app.get("/all", function(req, res) {
 
 // Scrape data and place it into the mongodb
 app.get("/scrape", function(req, res) {
+  db.Article.remove({}, function(err) {
+    console.log("Articles collection removed");
+  });
   request("https://www.nature.com/", function(error, response, html) {
     // Load the html body from request into cheerio
     var $ = cheerio.load(html);
@@ -68,11 +71,13 @@ app.get("/scrape", function(req, res) {
       articleObj.title = $(element)
         .text()
         .trim();
+      // articleObj.link = 'https://www.nature.com' + $("h3.mb10").find("a").attr("href");
       articleObj.link =
-        `https://www.nature.com` +
-        $("h3.mb10")
+        "https://www.nature.com" +
+        $(element)
           .find("a")
           .attr("href");
+      // is link is undefined do something else
 
       // Insert the data in the articles collection
       db.Article.create(articleObj)
