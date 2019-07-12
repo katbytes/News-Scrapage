@@ -4,7 +4,7 @@
   "description": "Mongo Scraper is a Node.js App using MongoDB. The App uses Cheerio to scrape articles from xyz.com it then allows users to save articles and add comments on individual articles. The app is deployed to Heroku and MongoDB.",
   "main": "server.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
